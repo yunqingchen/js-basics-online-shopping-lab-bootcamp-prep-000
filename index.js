@@ -44,6 +44,6 @@ function removeFromCart(item){
   }
   
   if (item!=cart[item]){
-    
+    return 
   }
 }

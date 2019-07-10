@@ -43,4 +43,5 @@ function removeFromCart(item){
     }
   }
   
+  if (item!=)
 }

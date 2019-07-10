@@ -48,4 +48,6 @@ function removeFromCart(item){
   }
 }
 
-function placeOrde()
+function placeOrder(cardNumber){
+  
+}

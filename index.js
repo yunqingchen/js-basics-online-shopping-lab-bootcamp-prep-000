@@ -35,3 +35,7 @@ function total(){
   }
 return totalPrice;
 }
+
+function removeFromCart(){
+  
+}

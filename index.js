@@ -37,5 +37,7 @@ return totalPrice;
 }
 
 function removeFromCart(item){
-  
+  for (var i=0; i<cart.length; i++){
+    
+  }
 }

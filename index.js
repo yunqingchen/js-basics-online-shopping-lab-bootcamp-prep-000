@@ -42,4 +42,5 @@ function removeFromCart(item){
       cart.splice(i,1);
     }
   }
+  
 }

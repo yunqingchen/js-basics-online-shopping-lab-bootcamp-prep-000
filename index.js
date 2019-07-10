@@ -36,6 +36,6 @@ function total(){
 return totalPrice;
 }
 
-function removeFromCart(){
+function removeFromCart(item){
   
 }

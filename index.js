@@ -28,3 +28,6 @@ function viewCart() {
   }
 }
 
+function total(){
+  
+}

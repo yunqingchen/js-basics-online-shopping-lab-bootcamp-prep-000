@@ -24,7 +24,7 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
       items.push(cart[i].itemName + " at $" + cart[i].itemPrice)
       };
-      "and" + items.pop()
+      items.push("and" + items.pop())
    return "In your cart, you have " + items.join(", ") + ".";
   }
 }

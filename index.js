@@ -24,7 +24,9 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
       items.push(cart[i].itemName + " at $" + cart[i].itemPrice)
       };
-      items.push("and " + items.pop());
+      if (cart.length>1){
+        items.push("and " + items.pop());
+      }
    return "In your cart, you have " + items.join(", ") + ".";
   }
 }
